@@ -29,15 +29,18 @@
     <div class="item">
       <img ng-src="{{assetsPath}}/images/dark/medium-res/aa-couple2.jpg" alt="happy black couple">
       <h2 class="carousel-statement">
-        ITN<em>{{affiliate}}</em> provides rides to seniors and visually challenged people in greater Hall County, Georgia.
+        ITN<em>{{affiliate}}</em> is now offering rides to seniors and the visually impaired in the Oklahoma City Metro Area.
       </h2>
     </div>
 
     <div class="item">
-      <iframe src="https://www.youtube.com/embed/AUKh9uJrS94?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.youtube.com/embed/9HEHTOX2psY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+      <a href="https://www.youtube.com/embed/9HEHTOX2psY">
+      <img ng-src="{{assetsPath}}/images/dark/oklahoma_vid.jpg" alt="storybook video">
       <h2 class="carousel-statement">
-        Learn why ITN<em>{{affiliate}}</em> is vital to Hall County. Watch the video.
+        Dr. Gabriel Vidal, an internist, routinely works with geriatric patients who face multiple conditions that diminish their ability to drive safely
       </h2>
+      </a>
     </div>
   </div><!--carousel-inner-->
 
@@ -115,11 +118,11 @@
     <h1>Our Progress</h1>
     <div class="row progress-steps">
       <div class="col-sm-6">
-        <div class="numbers" id="rides-given">3256</div>
+        <div class="numbers" id="rides-given">3925</div>
         Rides given
       </div>
       <div class="col-sm-6">
-        <div class="numbers" id="miles-driven">64405</div>
+        <div class="numbers" id="miles-driven">51595</div>
         Miles driven
       </div>
       <!-- <div class="col-sm-4">
@@ -157,7 +160,7 @@
 <div class="jumbotron section regeneron">
   <div class="container section-content">
     <h2>Regeneron and ITN<em>America</em></h2>
-    <!-- <div class="row"> -->
+    <div class="row">
       <div class="col-sm-9 reg-text">
         ITN<em>{{affiliate}}</em> is part of the nationwide network of ITN<em>America</em> affiliates.
         ITN<em>America</em> is proud to recognize Regeneron Pharmaceuticals, Inc. as a corporate sponsor committed to helping raise awareness of the challenges associated with vision impairment, low vision, senior mobility issues and the shortage of locally-available transportation options for seniors. As the National Pharmaceutical Eye-care Services Sponsor for ITN<em>America</em> and our affiliate communities, Regeneron Pharmaceuticals is proud to support ITN's mission to promote safe senior mobility. 
@@ -165,8 +168,10 @@
       <div class="col-sm-3 reg-img">
         <img ng-src="{{assetsPath}}/images/regeneron_logo.jpg" alt="regeneron logo" style="width: 300px"/>
       </div>
-    <!-- </div> -->
-    <!--row-->
+    </div><!--row-->
+    <div class="row ta-center mt-50 mb-25">
+      <img ng-src="{{assetsPath}}/images/corporate-sponsors.jpg" alt="regeneron logo" style="width: 500px"/>
+    </div><!--row-->
   </div><!--container/section-content-->
 </div><!--regeneron-->
 
