@@ -13,7 +13,7 @@
             <div class="pressroom-title"><h3>Pressroom</h3></div>
             <img ng-src="{{assetsPath}}/images/icons/news-noword2.png" alt="newspaper icon"/>
             <ul>
-              <li class="wow fadeInUp"><a href="http://pressroom.itnamerica.org/category/itncentraloklahoma/">Pressroom Blog</a></li>
+              <li class="wow fadeInUp"><a href="http://pressroom.itnamerica.org/category/itncentraloklahoma/" target="_blank">Pressroom Blog</a></li>
             </ul>
           </div><!--pressroom-image-->
           </a>
@@ -23,9 +23,9 @@
         <div class="col-sm-6 newsletter-content">
           <div class="newsletter-title"><h3>Newsletters</h3></div>
           <img ng-src="{{assetsPath}}/images/icons/news-noword.png" alt="press icon"/>
-          <!-- <ul>
-            <li class="wow fadeInUp"><a ui-sref="newsletters({anchor: 'march17'})">Newsletter March 2017</a></li>
-          </ul> -->
+          <ul>
+            <li class="wow fadeInUp"><a ng-click="redirectToURL(assetsPath + '/images/docs/newsletters/ITNCOnewsletter11_15_17.pdf')" target="_blank">Newsletter Fall 2017</a></li>
+          </ul>
         </div><!--newsletter-content-->
         
       </div><!--newsletter-->
