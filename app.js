@@ -69,11 +69,11 @@ app.post('/sendmail', function(req, res){
         // transporter.close();
     });
     
-    app.get('/*', function(req, res) { 
-      console.log('redirecting index');
-      // res.sendFile(__dirname + '/index.html')
-      res.sendFile(__dirname + '/app/contact.html')
-    });
+    // app.get('/*', function(req, res) { 
+    //   console.log('redirecting index');
+    //   // res.sendFile(__dirname + '/index.html')
+    //   res.sendFile(__dirname + '/app/contact.html')
+    // });
 
   
   res.end();
