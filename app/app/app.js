@@ -189,7 +189,7 @@ myApp.controller('MainController', ['$scope', '$transitions','$http', '$anchorSc
     phone: "The phone number should have the format: 111-111-1111",
     ssn: "The driver license number should have the format: 123-45-6789",
     mismatchName: "Please match the name you entered above",
-    mismatchSignature: "Please match the name the signature you entered above",
+    mismatchSignature: "Please match the signature you entered above",
     mismatchDate: "Please match the date you entered above"
   };
   $scope.dataPDF = null;
