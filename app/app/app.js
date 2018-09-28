@@ -886,8 +886,6 @@ $scope.checkRequiredFields = function(formType){
           $scope.tab = pageNum
         }
     };
-    
-  };
 
   $scope.showFormPage = function(pageNum) {
     console.log('inside form page, pagenum is ', pageNum);
